@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 .App-logo {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn{
+  border:none;
+  background:#555;
+  color:white;
+  padding:7px 20px;
+  cursor:pointer;
+  display:inline-block
+}
+.btn:hover{
+  background-color: #666;
 }
